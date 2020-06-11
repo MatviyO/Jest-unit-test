@@ -1,10 +1,10 @@
 {
-  "name": "jest",
+  "name": "jestTEst",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MatviyO/Jest-unit-test/issues"
   },
-  "homepage": "https://github.com/MatviyO/Jest-unit-test#readme"
+  "homepage": "https://github.com/MatviyO/Jest-unit-test#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
