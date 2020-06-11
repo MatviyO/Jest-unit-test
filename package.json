@@ -18,5 +18,8 @@
   "homepage": "https://github.com/MatviyO/Jest-unit-test#readme",
   "devDependencies": {
     "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }

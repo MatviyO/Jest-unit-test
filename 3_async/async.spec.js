@@ -1,5 +1,5 @@
 const Ajax = require('./async')
-
+const axios = require('axios')
 describe('Ajax: echo', () => {
     test('should return value asycn', async () => {
         const resut = await Ajax.echo('some data')
@@ -21,5 +21,10 @@ describe('Ajax: echo', () => {
         } catch (err) {
             expect(e.message).toBe('error')
         }
+    })
+})
+describe('ajac: get', ()=> {
+    test('should return data from backend', () => {
+
     })
 })
